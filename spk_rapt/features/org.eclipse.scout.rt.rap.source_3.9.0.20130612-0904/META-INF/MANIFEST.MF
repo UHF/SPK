@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.6.0_27
+Built-By: hudsonBuild
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+
+Name: epl-v10.html
+SHA1-Digest: Ff5Ripa/OIvfIdUwGt+jYQlvqVQ=
+
+Name: license.html
+SHA1-Digest: /vLZjlHkZSXMSfPrWwNqOUDqqbM=
+
+Name: feature.properties
+SHA1-Digest: GcEwoEMh5fuY9GV4NFU8Hs0u8/o=
+
+Name: about.html
+SHA1-Digest: sAXgWZYB7tT9O9w6pl6VraWFVhk=
+
+Name: feature.xml
+SHA1-Digest: ZhXek1mgzjXATyuTB3nPihMj+0k=
+

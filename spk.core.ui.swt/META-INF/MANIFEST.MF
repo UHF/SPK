@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: My Application
+Bundle-SymbolicName: spk.core.ui.swt;singleton:=true
+Bundle-Version: 0.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Activator: spk.core.ui.swt.Activator
+Export-Package: spk.core.ui.swt;uses:="org.eclipse.scout.rt.ui.swt,org.eclipse.scout.rt.client.session,org.osgi.framework",
+ spk.core.ui.swt.application,
+ spk.core.ui.swt.application.button,
+ spk.core.ui.swt.application.menu,
+ spk.core.ui.swt.editor,
+ spk.core.ui.swt.perspective,
+ spk.core.ui.swt.views
+Require-Bundle: spk.core.client;visibility:=reexport,
+ spk.core.shared,
+ org.eclipse.scout.rt.ui.swt,
+ org.eclipse.scout.net,
+ org.eclipse.equinox.app,
+ org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.eclipse.ui.views
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy

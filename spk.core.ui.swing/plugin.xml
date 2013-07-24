@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+  <extension id="app" name="Application" point="org.eclipse.core.runtime.applications">
+    <application>
+      <run class="spk.core.ui.swing.SwingApplication"/>
+    </application>
+  </extension>
+  <extension id="product" point="org.eclipse.core.runtime.products">
+    <product
+          application="spk.core.ui.swing.app"
+          name="core">
+       <property
+             name="appName"
+             value="core">
+       </property>
+    </product>
+  </extension>
+</plugin>

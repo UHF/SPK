@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.rap.fileupload.feature"
+      label="%featureName"
+      version="1.5.100.20130107-1047"
+      provider-name="%providerName">
+
+   <description url="http://www.eclipse.org/rap">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.apache.commons.io"
+         download-size="166"
+         install-size="327"
+         version="2.0.1.v201105210651"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.fileupload"
+         download-size="65"
+         install-size="122"
+         version="1.2.2.v20111214-1400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.rwt.supplemental.fileupload"
+         download-size="22"
+         install-size="39"
+         version="1.5.100.20121212-2151"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.rwt.supplemental.fileupload.source"
+         download-size="17"
+         install-size="36"
+         version="1.5.100.20121212-2151"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.rwt.supplemental.filedialog"
+         download-size="31"
+         install-size="56"
+         version="1.5.100.20130107-1047"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rap.rwt.supplemental.filedialog.source"
+         download-size="14"
+         install-size="44"
+         version="1.5.100.20130107-1047"
+         unpack="false"/>
+
+</feature>

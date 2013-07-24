@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: My Application
+Bundle-SymbolicName: spk.core.ui.swing;singleton:=true
+Bundle-Version: 0.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Activator: spk.core.ui.swing.Activator
+Export-Package: spk.core.ui.swing;uses:="org.eclipse.scout.rt.ui.swing,org.eclipse.scout.rt.client.session,org.osgi.framework"
+Require-Bundle: org.eclipse.scout.rt.ui.swing,
+ spk.core.client;visibility:=reexport,
+ spk.core.shared,
+ org.eclipse.scout.net
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy

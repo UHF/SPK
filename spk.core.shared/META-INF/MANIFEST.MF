@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: spk.core.shared
+Bundle-SymbolicName: spk.core.shared;singleton:=true
+Bundle-Version: 0.0.0.qualifier
+Bundle-Activator: spk.core.shared.Activator
+Export-Package: spk.core.shared,
+ spk.core.shared.services,
+ spk.core.shared.services.common.text
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.scout.rt.shared;visibility:=reexport
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
